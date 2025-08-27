@@ -51,6 +51,15 @@ li:last-child{}
 li:nth-child(2)
 ```
 ***we can write even or odd too.***
+## styling hyper links using pseudo classes.
+```css
+a:link{}
+```
+**this will target which have ***href*** attribute**
+```css
+a:active{}
+```
+**when you clicked you wanna give style to it.**
 ### boxModel in css
 ![boxmodel](images/boxmodel.png)
 # responsive
