@@ -40,6 +40,17 @@
 ```html
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 ```
+### Pseudo-classes 
+```css
+li:first-child{}
+li:last-child{}
+
+```
+**we can also target a specific child .**
+```css
+li:nth-child(2)
+```
+***we can write even or odd too.***
 ### boxModel in css
 ![boxmodel](images/boxmodel.png)
 # responsive
