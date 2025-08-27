@@ -60,6 +60,9 @@ a:link{}
 a:active{}
 ```
 **when you clicked you wanna give style to it.**
+### when they are multiple decorations from the same element which selector has the highest priority?
+**ID selector** has the highest priority,if there are multiple **ID selectors** the last one gets applied.
+**in case there is no ID selector priority is classes or pseudo-class-selectors ***if **
 ### boxModel in css
 ![boxmodel](images/boxmodel.png)
 # responsive
