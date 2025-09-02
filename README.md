@@ -77,9 +77,32 @@ this will check if the current viewport width a smaller or equal than 600 pixles
 ### what are breakpoints?
 breakpoints are the viewport with at which we want or designed to change, breakpoints are the pixel values,that we want to put in all media queries.
 ![breakpoints](images/breakpoints.png)
-
-
-
+## flexbox in css
+**The flexible box layout module (usually referred to as flexbox) is a one-dimensional layout model for distributing space between items and includes numerous alignment capabilities.**
+### the two axes of flexbox
+When working with flexbox you need to think in terms of two axes — the main axis and the cross axis. The main axis is defined by the flex-direction property, and the cross axis runs perpendicular to it. Everything we do with flexbox refers back to these axes, so it is worth understanding how they work from the outset.
+### center all the elements verticaly
+```css
+align-items:center;
+```
+### center elements horizantly
+center inside the flex container 
+```css
+justify-content:center;
+```
+### flex container
+**to create space between items without using margin.**
+```css
+gap:0;
+```
+**to align items along main axis (horizantly).**
+```css
+justify-content:flex-start|flex-end|center|space-between|space-around;
+```
+**to align items along cross axis (verticaly).**
+```css
+align-items:center;
+```
 
 
 
