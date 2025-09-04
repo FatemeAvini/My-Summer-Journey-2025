@@ -104,6 +104,11 @@ justify-content:flex-start|flex-end|center|space-between|space-around;
 align-items:flex-start|flex-end|center|baseline;
 
 ```
+### the element on which we wanna use flexbox is called the **flex container**
+# css grid
+### css Grid is a set of **css properties** for **building 2-dimensional layouts**
+### the main idea behind **css Grid** is that we divide a container element into rows and columns that can be filled with its child elements.
+### css Grid is not meant to replace flexbox! instead,they work perfectly together.Need a 1D layout ? use flexbox. Need a 2D layout? use css Grid.
 
 
 
