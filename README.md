@@ -109,7 +109,9 @@ align-items:flex-start|flex-end|center|baseline;
 ### css Grid is a set of **css properties** for **building 2-dimensional layouts**
 ### the main idea behind **css Grid** is that we divide a container element into rows and columns that can be filled with its child elements.
 ### css Grid is not meant to replace flexbox! instead,they work perfectly together.Need a 1D layout ? use flexbox. Need a 2D layout? use css Grid.
-
+the grid container is basically where every thing happens we create a grid container 
+**by setting its display property to grid**
+![cssgrid](images/cssGrid.png)
 
 
 
