@@ -101,7 +101,8 @@ justify-content:flex-start|flex-end|center|space-between|space-around;
 ```
 **to align items along cross axis (verticaly).**
 ```css
-align-items:center;
+align-items:flex-start|flex-end|center|baseline;
+
 ```
 
 
