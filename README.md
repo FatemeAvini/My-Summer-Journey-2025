@@ -112,6 +112,17 @@ align-items:flex-start|flex-end|center|baseline;
 the grid container is basically where every thing happens we create a grid container 
 **by setting its display property to grid**
 ![cssgrid](images/cssGrid.png)
+**we need to define our 2 dimensional layout. basically our columns and rows.**
+```css
+grid-temlate-columns:100px 200px;
+```
+we can define many width values as we want and for each of these values one column will be created. **this code will generate 2 columns one with width of 100px, and another one with width of 200px.
+### the only way of defining space between the grid items is:
+```css
+gap:20px;
+column-gap:10px;
+row-gap:15px;
+```
 
 
 
