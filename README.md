@@ -123,6 +123,24 @@ gap:20px;
 column-gap:10px;
 row-gap:15px;
 ```
+### Fr unit
+**so using the Fr unit instead of pixels will allow us to very easily create flexible columns and rows.**   
+ 
+for example if we have 4 columns and we want each of them have the same size.
+```css
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+```
+### auto keyword
+if we say auto for example on the forth column then it will only take exactly the size that is necessary to fill its content.
+```css
+grid-template-columns: 1fr 1fr 1fr 1fr auto;
+```
+**there is an easy way instead of writing four times Fr.**
+### using repeat function
+```css
+grid-template-columns: repeat (4,1fr) ;
+``` 
+
 
 
 
