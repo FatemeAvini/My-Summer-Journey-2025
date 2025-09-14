@@ -1,4 +1,45 @@
 .container{
     background-color: #042baa;
 color: white;
+width: 50%;
+height: 600px;
+margin: auto;
+border: 5px solid #010f2566;
+border-radius: 8%;
+}
+.container h2,h5{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+    align-items: center;
+    gap: 20px;
+}
+form input{
+    width: 50%;
+    height: 30px;
+   
+}
+form input:hover{
+    background-color: #0022ff;
+    color: white;
+}
+form button{
+    background-color: #03b85e;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 15%;
+    width: 100px;
+}
+form button:hover{
+    background-color: #ff4800;
+
+}
+a{
+    color: #00a2ff;
+    text-decoration: none;
 }
